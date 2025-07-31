@@ -5,6 +5,7 @@ public class Greeter {
 
   private Locale locale;
   private String name;
+  private Int num;
 
   public Greeter(String language, String country, String name) {
     locale = new Locale(language, country);
